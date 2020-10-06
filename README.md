@@ -6,3 +6,6 @@
 
 #### Pacote body-parser - Entende arquivos Json
 - yarn add body-parser
+
+#### Mongoose - Pacote para conectar no MongoDB
+- yarn add mongoose
