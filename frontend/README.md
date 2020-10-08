@@ -6,4 +6,6 @@
 #### Iniciando projeto
 - yarn start
 
-#### 
+#### Navegação de Paginas
+- yarn add react-router-dom
+- yarn add @types/react-router-dom -D
