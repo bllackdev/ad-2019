@@ -1,10 +1,11 @@
 {
   "name": "secret-friend",
   "version": "1.0.0",
-  "description": "",
+  "description": "Aplicativo de Amigo Secreto",
+  "author": "Raphael Renato",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [],
   "author": "",
@@ -12,6 +13,10 @@
   "dependencies": {
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.10.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }

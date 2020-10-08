@@ -1,4 +1,9 @@
-const mongoose = require('../database');
+/**
+ * Classe People criada com o Mongoose
+ * para interagir com o Banco de dados
+ */
+
+const mongoose = require('mongoose');
 
 const PeopleSchema = new mongoose.Schema({
   name: {
