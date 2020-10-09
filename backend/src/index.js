@@ -25,7 +25,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 
-app.listen(3000);
+app.listen(3005);
 
 // Rotas da API
 const router = express.Router();
@@ -111,4 +111,4 @@ router.route('/peoples/:people_id')
 app.use('/api', router);
 
 
-console.log('Iniciando a aplicação na ' + 3000);
+console.log('Iniciando a aplicação na ' + 3005);

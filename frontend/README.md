@@ -9,3 +9,6 @@
 #### Navegação de Paginas
 - yarn add react-router-dom
 - yarn add @types/react-router-dom -D
+
+#### Axios - Conectar com API
+- yarn add axios-react

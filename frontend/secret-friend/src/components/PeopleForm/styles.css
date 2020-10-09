@@ -1,0 +1,42 @@
+#page-friend-list {
+  width: 100vw;
+  height: 90vh;
+}
+
+#page-friend-list main {
+  margin: 3.2rem auto;
+  width: 90%;
+}
+
+#page-friend-form fieldset button {
+  width: 100%;
+  height: 5.6rem;
+  background: var(--color-secundary);
+  color: var(--color-button-text);
+  border: 0;
+  border-radius: 0.8rem;
+  cursor: pointer;
+  font: 700 1.6rem Sniglet;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: background-color 0.2s;
+  margin-top: 3.2rem;
+}
+
+/* Adaptar Header para Desktop */
+
+@media (min-width: 700px) {
+  #page-friend-list {
+    max-width: 100vw;
+  }
+  #create-friend .input-block+.input-block, #create-friend .select-block+.select-block {
+    margin-top: 0;
+  }
+  #page-friend-list main {
+    padding: 3.2rem 0;
+    max-width: 740px;
+    margin: 0 auto;
+  }
+}

@@ -18,7 +18,7 @@ function Landing() {
         <img src={landingImg} alt="Friends" className="hero-image" />
 
         <div className="button-container">
-          <Link to="/friend-list" className="start"> Estudar </Link>
+          <Link to="/friend-list" className="start"> Começar </Link>
         </div>
       </div>
     </div>
